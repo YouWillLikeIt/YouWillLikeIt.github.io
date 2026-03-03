@@ -105,7 +105,13 @@ img {
 .indent {
     text-indent: 2em;
 }
-
+/* 列表的缩进样式，和段落保持一致的视觉效果 */
+.indent-list {
+    margin-left: 2em; /* 核心：列表整体右移，比段落多1em，突出层级 */
+    padding-left: 0; /* 清除ul默认的内边距 */
+    list-style-position: inside; /* 让列表符号（●）在缩进范围内，更整齐 */
+    line-height: 1.8; /* 和段落行高统一 */
+}
 .spacing {
     margin-top: 10px;
 }
