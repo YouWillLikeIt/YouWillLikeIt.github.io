@@ -118,6 +118,7 @@ img {
 
 /* publication */
 .publication-list {
+    margin-left: 3em; /* 核心：列表整体右移，比段落多1em，突出层级 */
     list-style-type: square;
 }
 
